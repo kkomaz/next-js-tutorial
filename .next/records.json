@@ -1,0 +1,43 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "multi node_modules/next/dist/client/next": 0
+    },
+    "usedIds": {
+      "0": 0
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "static/h2hXn9jtcZmBE3jaYPiZ6/pages/_app.js": 2,
+      "static/h2hXn9jtcZmBE3jaYPiZ6/pages/_error.js": 3,
+      "static/h2hXn9jtcZmBE3jaYPiZ6/pages/about.js": 4,
+      "static/h2hXn9jtcZmBE3jaYPiZ6/pages/index.js": 5,
+      "static/h2hXn9jtcZmBE3jaYPiZ6/pages/post.js": 6,
+      "static/runtime/main.js": 7,
+      "static/~Hs1yF1s3Q2kIdgOng2K2/pages/_app.js": 8,
+      "static/~Hs1yF1s3Q2kIdgOng2K2/pages/_error.js": 9,
+      "static/~Hs1yF1s3Q2kIdgOng2K2/pages/about.js": 10,
+      "static/~Hs1yF1s3Q2kIdgOng2K2/pages/index.js": 11,
+      "static/~Hs1yF1s3Q2kIdgOng2K2/pages/post.js": 12,
+      "static/F2Fb~JdQIANQEXFT~oOgD/pages/_app.js": 2,
+      "static/F2Fb~JdQIANQEXFT~oOgD/pages/_error.js": 3,
+      "static/F2Fb~JdQIANQEXFT~oOgD/pages/about.js": 4,
+      "static/F2Fb~JdQIANQEXFT~oOgD/pages/index.js": 5,
+      "static/F2Fb~JdQIANQEXFT~oOgD/pages/post.js": 6
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+}

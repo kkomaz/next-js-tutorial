@@ -1,6 +1,32 @@
 import Link from 'next/link' // HOC
 import Layout from '../components/Layout'
 import fetch from 'isomorphic-unfetch'
+import Markdown from 'react-markdown'
+import styles from '../stylesheets/pages/index-styles'
+
+const PostLink = ({ show }) => (
+  <li>
+    <Link as={`/p/${show.id}`} href={`/post?id=${show.id}`}>
+      <a>{show.name}</a>
+    </Link>
+    <style jsx>{`
+      li {
+        list-style: none;
+        margin: 5px 0;
+      }
+
+      a {
+        text-decoration: none;
+        color: blue;
+        font-family: "Arial";
+      }
+
+      a:hover {
+        opacity: 0.6
+      }
+    `}</style>
+  </li>
+)
 
 const Index = (props) => {
   return (
@@ -8,14 +34,13 @@ const Index = (props) => {
       <ul>
         {
           props.shows.map(({ show }) => (
-            <li key={show.id}>
-              <Link as={`/p/${show.id}`} href={`/post?id=${show.id}`}>
-                <a>{show.name}</a>
-              </Link>
-            </li>
+            <PostLink show={show} key={show.id} />
           ))
         }
       </ul>
+      <style jsx>
+        {styles}
+      </style>
     </Layout>
   )
 }
